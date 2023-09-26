@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#screen{
+    width: 100%;
+    height: 540px;
+    border: 1px solid rgba(128, 128, 128, 0.178);;
+    background-color: rgba(128, 128, 128, 0.178);
+    
+}
+#body{
+    width: 40%;
+    margin: auto;
+    background-color: #FAF9F8;
+    height: 95%;
+    margin-top: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#semi-body{
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+    height: 90%;
+    margin-top: 4%;
+}
+.top{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.top > h1{
+    font-size: 23px;
+}
+.top > i{
+    margin-top: 16px;
+}
+.top-p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#fieldset{
+    /* border: 1px solid blue; */
+    height: 45%;
+    margin-top: 20px;
+    text-align: left;
+}
+#fieldset > label{
+    font-size: 13px;
+    font-weight: 400;
+}
+#fieldset > label > span{
+    color: red;
+}
+#fieldset > input{
+    border-radius: 0%;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.33);
+    /* text-align-last: right; */
+    padding-left: 10px;
+    font-size: 16px;
+}
+::placeholder{
+    color: black;
+    margin-right: 10px;
+    text-align-last: right;
+    font-size: 14px;
+}
+
+#forgotPass{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+#forgotPass > div{
+    display: flex;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid blue;
+}
+
+.sign-in{
+    width: 100%;
+    height: 50px;
+    border-radius: 0%;
+    border: 1px solid black;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.872);
+    font-weight: 700;
+    margin-top: 20px;
+}
+.sign-up{
+    width: 100%;
+    height: 50px;
+    border-radius: 0%;
+    border: 1px solid black;
+    color:  rgba(0, 0, 0, 0.872); ;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.last{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
