@@ -31,7 +31,7 @@ const Login = () => {
 
                     <button className='sign-in' >Sign in</button><br/>
                     <button className='sign-up' onClick={() => rout("/register")} >Become a member</button>
-                    <p className='last'><u>Membership info</u></p>
+                    <p className='login-last'><u>Membership info</u></p>
                 </div>
             </div>
 

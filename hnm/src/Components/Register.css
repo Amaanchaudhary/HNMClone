@@ -1,0 +1,273 @@
+#screen {
+    width: 100%;
+    height: 100%;
+}
+
+#mainscreen {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 520px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: auto;
+    background-color: #faf9f8;
+
+}
+
+#inscreen {
+    /* border: 1px solid blue; */
+    width: 87%;
+    height: auto;
+    margin: auto;
+    background-color: #faf9f8;
+
+
+
+}
+
+#firstline {
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-top: 5px;
+}
+
+#firstline h2 {
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-top: 22px;
+    margin-left: 27px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 640;
+    font-family: "HM Sans Latin SemiBold";
+}
+
+#cross {
+    /* border: 1px solid red; */
+    margin-top: -45px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 94%;
+}
+
+#secline :nth-child(1) {
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+
+    font-weight: 500;
+    font-family: "HM Sans Regular";
+}
+
+#mainline {
+    /* border: 1px solid red; */
+    color: black;
+    margin-top: 50px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    margin-left: -8px;
+    font-family: "HM Sans Regular";
+
+
+}
+
+#star {
+    color: rgb(214, 0, 28);
+    width: fit-content;
+    height: fit-content;
+    margin-top: -18px;
+    margin-left: 43px;
+    font-family: "HM Sans Latin SemiBold";
+    font-weight: bold;
+}
+
+#in1 :nth-child(1) {
+    width: 98%;
+    height: 42px;
+}
+
+#in1 {
+    margin-top: 3px;
+}
+
+#pass {
+    color: black;
+    margin-top: 15px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    margin-left: -16px;
+
+}
+
+#star2 {
+    color: rgb(214, 0, 28);
+    width: fit-content;
+    height: fit-content;
+    margin-top: -19px;
+    margin-left: 118px;
+    font-weight: bold;
+}
+
+#show {
+    margin-top: -33px;
+    margin-left: 89%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#uplow {
+    font-size: 13px;
+    width: fit-content;
+    color: #707070;
+}
+
+#dob {
+    color: black;
+    margin-top: -15px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    margin-left: -7px;
+
+}
+
+#star3 {
+    color: rgb(214, 0, 28);
+    width: fit-content;
+    height: fit-content;
+    margin-top: -18px;
+    margin-left: 87px;
+    font-weight: bold;
+}
+
+#uplow2 {
+    font-size: 13px;
+    width: fit-content;
+
+    color: #707070;
+    margin-top: -15px;
+}
+
+#option {
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-top: -15px;
+
+}
+
+#downline {
+    margin-top: 10px;
+    border: 1px solid #faf9f8;
+    height: fit-content;
+    font-family: "HM Sans Regular";
+
+}
+
+#op1 {
+    width: 95%;
+    height: 100%;
+    border: none;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+}
+
+#yes {
+    /* border: 1px solid red; */
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    font-family: "HM Sans Regular";
+}
+
+#yes1 {
+    width: fit-content;
+    font-family: "HM Sans Regular";
+
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+#yes2 {
+    font-size: 12px;
+    width: fit-content;
+    /* border: 1px solid red; */
+    height: fit-content;
+    text-align: start;
+    font-family: "HM Sans Regular";
+
+}
+
+#byc {
+    /* border: 1px solid red; */
+    width: fit-content;
+    font-size: 11px;
+    margin-top: 12px;
+    text-align: start;
+    color: #707070;
+
+}
+
+#byc1 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#lasttext {
+    width: fit-content;
+    font-size: 11px;
+    margin-top: 10px;
+    text-align: start;
+    color: #707070;
+
+}
+
+#bm {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#bm1 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 0 0 #000;
+    background: #222;
+}
+
+#signin {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 30px;
+
+}
+
+#sn2 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    font-size: 16px;
+    box-shadow: 0 0 0 0 #000;
+    background-color: transparent;
+    border: 1px solid #222;
+    color: #222;
+}
