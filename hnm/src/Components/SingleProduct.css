@@ -1,6 +1,6 @@
 #SP-screen{
-    border: 2px solid green;
-    height: 4000px;
+    /* border: 2px solid green; */
+    height: 3950px;
     width: 100%;
 }   
 .SP-toptext{
@@ -8,11 +8,12 @@
     font-size: 11px;
     margin-bottom: 30px;
 }
+
 .SP-toptext > span{
     color: red;
 }
 .SP-body{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 2285px; 
     width: 95%;
     margin: auto;
@@ -25,9 +26,9 @@ img{
     height: 100%;
 }
 .SP-left{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
-    width: 65%;
+    width: 66%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -35,16 +36,185 @@ img{
 .SP-left > div{
     width: 49.7%;
     height: 570px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .SP-right{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    height: 42%;
+    width: 32%;
+    position: sticky;
+    top: 0%;
+}
+
+.SP-R1div{
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.SP-R1div > h3{
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+}
+.SP-R1div > i{
+    padding: 0%;
+    margin: 0%;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.SP-R2div{
+    /* border: 1px solid green; */
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.SP-R2div  > h3{
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+}
+.SP-R2div  > p{
+    font-weight: 400;
+    background-color: rgba(255, 228, 196, 0.744);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0%;
+}
+.SP-3rdP{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.SP-small-pics{
+    height: 90px;
+    width: 190px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.SP-small-pics > div { 
     height: 100%;
     width: 33%;
+    /* border: 1px solid black; */
 }
+.SP-small-pics > div  > img{ 
+    height: 100%;
+    width: 100%;
+}
+.SP-sizes{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.SP-4div{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+}
+.SP-4div > button{
+    border: 1px solid rgba(128, 128, 128, 0.45);
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: white;
+    width: 18%;
+}
+.SP-sizes2{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.SP-sizes2 > i{
+  margin-right: 5px;
+}
+
+.SP-2button{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.SP-2button > i{
+    margin-right: 10px;
+}
+
+.SP-sizes3{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.SP-sizes3 > i{
+  margin-right: 5px;
+}
+.DeliveryPay{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.stars{
+    font-size: 14px;
+    text-align: left;
+    margin-left: -220px;
+    /* border: 1px solid green; */
+    margin-top: 50px;
+}
+.SP-sizes4{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-top: 20px;
+}
+.SP-Line{
+    /* height: 10px; */
+    border-bottom: 1px solid black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.SP-Line{
+   /* border: 1px solid black; */
+   line-height: 1px;
+}
+.SP-Small{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.81);
+}
+.SP-3divs{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+.SP-3divs > div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    height: 40px;
+}
+
+
+
 .SP-body2{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 87%;
     margin: auto;
     height: 600px;
@@ -56,7 +226,7 @@ img{
     font-size: 20px;
 }
 .SP-body2-frame{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 94%;
     margin-top: 0.5%;
@@ -64,26 +234,33 @@ img{
     justify-content: space-between;
 }
 .SP-body2-frame > div{
-    border: 1px solid black;
-    height: 92%;
+    /* border: 1px solid black; */
+    height: 100%;
     width: 32%;
 }
 .SP-body2-frame > div > i{
     margin-inline-start: 84%;
-    margin-block-start: 140%;
+    margin-block-start: 135%;
+}
+.SP-body2-frame > div > p{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 .SP-body2-frame > div:nth-child(1){
     background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/21/c3/21c31c065f525fa5bec312a248804601a9a3b3f9.jpg],origin[dam],category[men_jeans_loose],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 91%;
 }
 .SP-body2-frame > div:nth-child(2){
     background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/73/22/7322d5afe5e85ac0e773eb7b6d8ff41556a346ca.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 90%;
 }
 .SP-body2-frame > div:nth-child(3){
     background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/85/53/85532b1d55ead83298dcf1a05c255ced10990b8b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 90%;
 }
+
