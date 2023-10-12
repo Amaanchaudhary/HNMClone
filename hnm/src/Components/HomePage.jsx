@@ -13,7 +13,6 @@ const HomePage = () => {
                             <li>Members get free shipping above Rs.1999</li>
                             <li>Free & flexible 15 days return</li>
                             <ul id='lib'> <li id='lib'>Download the H&M App</li></ul>
-
                         </ul>
                     </div>
                     <div id='body1'></div>

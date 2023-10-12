@@ -7,6 +7,7 @@ import Register from './Components/Register'
 import Footer from './Components/Footer';
 import NavBar from './Components/NavBar'
 import SingleProduct from './Components/SingleProduct';
+import Cart from './Components/Cart';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/footer' element={<Footer/>} />
         <Route exact path='/navbar' element={<NavBar/>} />
         <Route exact path='/singleproduct' element={<SingleProduct/>} />
+        <Route exact path='/cart' element={<Cart/>} />
       </Routes>
       <Footer/>
     </div>
