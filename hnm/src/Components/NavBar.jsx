@@ -1,8 +1,11 @@
+import { useContext } from 'react';
 import './NavBar.css'
 import { useNavigate } from 'react-router-dom'
+import { AuthContext } from '../context/AuthContext';
 
 const NavBar = () => {
   const rout = useNavigate();
+  const {state , Logout} = useContext(AuthContext)
   return (
     <div id='nav-screen'>
 
@@ -26,7 +29,14 @@ const NavBar = () => {
 
         <div className='nav-up3' >
           <div>
+            {state?.user?.id ? 
+            <>
+            <span className='username'>Hi! <u>{state?.user?.name}</u></span>
+            <button onClick={Logout} ><i class="fa-regular fa-user fa-xl"></i> Logout</button>
+            </>
+            :
             <button onClick={() => rout("/login")} ><i class="fa-regular fa-user fa-xl"></i> Sign in</button>
+            }
             <button><i class="fa-regular fa-heart fa-2xl"></i> favourites</button>
             <button><i class="fa-solid fa-bag-shopping fa-2xl"></i> Shopping bag (0)</button>
           </div>
